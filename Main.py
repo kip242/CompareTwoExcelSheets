@@ -87,7 +87,7 @@ for i in range(len(SameId)):
     # current ItemId from the SameId Array
 
     start = 0
-    for rows in range(start, OtherWorkSheetRead.nrows):
+    for rows in range(start, OtherWorkSheetRead.nrows): #range(OtherWorkSheetRead.nrows):
 
         # if there is a match add all the cells from that row to the oneRow array
         # the rows in the all item spreadsheet are not of a fixed length
